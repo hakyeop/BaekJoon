@@ -2,7 +2,7 @@
 int main()
 {
 	int x, y, w, h;
-	scanf_s("%d%d%d%d", &x, &y, &w, &h);
+	scanf("%d%d%d%d", &x, &y, &w, &h);
 	int px, py, mx, my;
 	px = w - x;
 	py = h - y;
