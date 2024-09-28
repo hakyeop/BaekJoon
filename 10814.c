@@ -34,7 +34,7 @@ int main()
 
 	for (int i = 0; i < n; i++){
 		scanf("%d %s", &mem[i].age, mem[i].name);
-        mem[i].number = i;
+        	mem[i].number = i;
     }
 
 	qsort(mem, n, sizeof(mem[0]), compare);
